@@ -3,7 +3,7 @@
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `hexo-site/source/` directory.
-favicon: /favicon.ico
+favicon:  https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Superman_S_symbol.svg/1200px-Superman_S_symbol.svg.png 
 
 # Set default keywords (Use a comma to separate)
 keywords: "Hexo, NexT"
@@ -38,7 +38,7 @@ seo: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories
+  categories: /categories
   #about: /about
   archives: /archives
   tags: /tags
@@ -71,9 +71,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
-#scheme: Pisces
+scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -133,9 +133,11 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
-  #LinkLabel: Link
-
+social:
+  github: https://github.com/lordchao
+  weibo:  http://weibo.com/u/1642856762
+  facebook: https://www.facebook.com/chao.liu.7161
+  zhihu: https://www.zhihu.com/people/liu-chao-72-1
 
 # Social Links Icons
 # Icon Mapping:
@@ -149,13 +151,13 @@ social_icons:
   GitHub: github
   Twitter: twitter
   Weibo: weibo
-
+  facebook: facebook
+  zhihu: zhihu
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-#avatar:
-
+avatar: https://upload.wikimedia.org/wikipedia/en/5/57/Coldplayparachutesalbumcover.jpg
 
 # Table Of Contents in the Sidebar
 toc:
@@ -292,7 +294,7 @@ mathjax:
 #duoshuo_shortname:
 
 # Disqus
-#disqus_shortname:
+disqus_shortname: lordchao
 
 # Hypercomments
 #hypercomments_id:
@@ -530,6 +532,11 @@ vendors:
 css: css
 js: js
 images: images
+
+#pay
+reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
+wechatpay: /images/wepay.jpg
+alipay: /images/alipay.jpg
 
 # Theme version
 version: 5.1.0
