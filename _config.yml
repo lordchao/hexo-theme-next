@@ -157,10 +157,8 @@ social_icons:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-avatar: https://upload.wikimedia.org/wikipedia/en/5/57/Coldplayparachutesalbumcover.jpg
-
-# Table Of Contents in the Sidebar
-toc:
+avatar: /images/avatar.png 
+toc:  
   enable: true
 
   # Automatically add list number to toc.
